@@ -8,6 +8,8 @@ namespace LearningProgressTrackingSystem.Data.Repositories;
 public class StudentRepository(LearningProgressTrackingSystemContext context) 
     : BaseRepository<Student>(context), IStudentRepository
 {
+    private readonly LearningProgressTrackingSystemContext _context = context;
+
     protected override IQueryable<Student> ApplyIncludes(IQueryable<Student> dbSet)
     {
         return dbSet
@@ -18,7 +20,7 @@ public class StudentRepository(LearningProgressTrackingSystemContext context)
 
     public async Task<Student?> GetByIdAsNoTrackingAsync(int id, CancellationToken ct)
     {
-        var dbSet = context.Students;
+        var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
         return await query
@@ -28,7 +30,7 @@ public class StudentRepository(LearningProgressTrackingSystemContext context)
 
     public async Task<IEnumerable<Student>?> GetAllAsNoTrackingAsync(CancellationToken ct)
     {
-        var dbSet = context.Students;
+        var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
         return await query
