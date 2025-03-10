@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LearningProgressTrackingSystem.Data.Repositories;
 
-public class StudentRepository(LearningProgressTrackingSystemContext context) 
+public sealed class StudentRepository(LearningProgressTrackingSystemContext context) 
     : BaseRepository<Student>(context), IStudentRepository
 {
     private readonly LearningProgressTrackingSystemContext _context = context;
