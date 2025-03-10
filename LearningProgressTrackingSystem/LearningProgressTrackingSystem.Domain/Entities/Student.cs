@@ -2,7 +2,7 @@ using LearningProgressTrackingSystem.Domain.Entities.Shared;
 
 namespace LearningProgressTrackingSystem.Domain.Entities;
 
-public class Student : BaseEntity
+public sealed class Student : BaseEntity
 {
     public required string Name { get; set; }
     public required string Email { get; set; }
@@ -10,7 +10,7 @@ public class Student : BaseEntity
     
     public Account? Account { get; set; }
 
-    public virtual ICollection<Course> Courses { get; set; } = new List<Course>();
-    public virtual ICollection<Grade> Grades { get; set; } = new List<Grade>();
-    public virtual ICollection<Assignment> Assignments { get; set; } = new List<Assignment>();
+    public ICollection<Course> Courses { get; set; } = new List<Course>();
+    public ICollection<Grade> Grades { get; set; } = new List<Grade>();
+    public ICollection<Assignment> Assignments { get; set; } = new List<Assignment>();
 }

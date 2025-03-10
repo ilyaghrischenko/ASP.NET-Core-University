@@ -2,7 +2,7 @@ using LearningProgressTrackingSystem.Domain.Entities.Shared;
 
 namespace LearningProgressTrackingSystem.Domain.Entities;
 
-public class Assignment : BaseEntity
+public sealed class Assignment : BaseEntity
 {
     public required string Title { get; set; }
     public required DateOnly Deadline { get; set; }
@@ -10,5 +10,5 @@ public class Assignment : BaseEntity
     
     public required Course Course { get; set; }
     
-    public virtual ICollection<Grade> Grades { get; set; } = new List<Grade>();
+    public ICollection<Grade> Grades { get; set; } = new List<Grade>();
 }

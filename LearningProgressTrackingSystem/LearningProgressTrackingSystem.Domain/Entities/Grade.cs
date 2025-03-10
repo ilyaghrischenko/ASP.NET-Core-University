@@ -2,7 +2,7 @@ using LearningProgressTrackingSystem.Domain.Entities.Shared;
 
 namespace LearningProgressTrackingSystem.Domain.Entities;
 
-public class Grade : BaseEntity
+public sealed class Grade : BaseEntity
 {
     public required uint Score { get; set; }
     public required DateOnly SetAt { get; set; }
