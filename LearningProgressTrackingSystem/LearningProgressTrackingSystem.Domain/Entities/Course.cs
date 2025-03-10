@@ -1,0 +1,14 @@
+using LearningProgressTrackingSystem.Domain.Entities.Shared;
+
+namespace LearningProgressTrackingSystem.Domain.Entities;
+
+public class Course : BaseEntity
+{
+    public required string Title { get; set; }
+    public required string Description { get; set; }
+    
+    public Teacher? Teacher { get; set; }
+    
+    public virtual ICollection<Student> Students { get; set; } = new List<Student>();
+    public virtual ICollection<Assignment> Assignments { get; set; } = new List<Assignment>();
+}
