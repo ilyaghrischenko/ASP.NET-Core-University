@@ -1,7 +1,6 @@
 using System.Security.Claims;
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
 using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
-using LearningProgressTrackingSystem.Application.Exceptions;
 using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Application.Options;
 using LearningProgressTrackingSystem.Domain.Contracts;

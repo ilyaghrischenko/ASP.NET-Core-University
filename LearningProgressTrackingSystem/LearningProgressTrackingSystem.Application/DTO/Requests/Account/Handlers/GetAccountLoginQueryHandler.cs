@@ -1,7 +1,6 @@
 using System.Net;
 using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
 using LearningProgressTrackingSystem.Application.DTO.Responses.Account;
-using LearningProgressTrackingSystem.Application.Exceptions;
 using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Domain.Contracts;
 using LearningProgressTrackingSystem.Domain.Entities;
