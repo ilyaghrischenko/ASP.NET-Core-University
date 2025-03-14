@@ -1,4 +1,5 @@
 using LearningProgressTrackingSystem.Presentation.Extensions;
+using LearningProgressTrackingSystem.Presentation.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,10 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder
-    .AddPooledDbContextFactory()
+    .AddDbContext()
     .AddRepositories()
     .AddApplicationServices()
-    .AddIntegrationServices();
+    .AddIntegrationServices()
+    .AddMediatR()
+    .AddOptions()
+    .AddJwtBearerAuthentication()
+    .AddResponseCompression();
 
 var app = builder.Build();
 
@@ -28,8 +33,13 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
+        pattern: "{controller=Account}/{action=LogIn}/{id?}")
     .WithStaticAssets();
 
+app.UseResponseCompression();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseCors("AllowMvcClient");
 
 app.Run();

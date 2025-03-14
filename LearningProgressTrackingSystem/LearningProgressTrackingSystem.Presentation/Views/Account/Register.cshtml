@@ -1,0 +1,36 @@
+@model LearningProgressTrackingSystem.Application.DTO.Requests.Account.Commands.RegisterCommand
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100 text-center">
+    <form asp-action="Register"
+          method="post"
+          class="d-flex justify-content-center align-items-center flex-column"
+    >
+        @Html.ValidationSummary()
+        
+        <div class="mb-3 d-flex flex-row">
+            @Html.LabelFor(model => model.Login)
+            @Html.TextBoxFor(model => model.Login, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3 d-flex flex-row">
+            @Html.LabelFor(model => model.Password)
+            @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3 d-flex flex-row">
+            @Html.LabelFor(model => model.ConfirmPassword)
+            @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary">Sign up</button>
+        </div>
+    </form>
+</div>

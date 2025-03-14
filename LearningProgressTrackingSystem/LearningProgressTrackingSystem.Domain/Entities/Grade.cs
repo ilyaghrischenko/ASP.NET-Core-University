@@ -10,4 +10,6 @@ public sealed class Grade : BaseEntity
     public required Student Student { get; set; }
     public required Assignment Assignment { get; set; }
     public required Course Course { get; set; }
+
+    public Grade() { }
 }

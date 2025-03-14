@@ -7,11 +7,22 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\LearningProgressTrackingSystem.Application\LearningProgressTrackingSystem.Application.csproj" />
       <ProjectReference Include="..\LearningProgressTrackingSystem.Data\LearningProgressTrackingSystem.Data.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Controllers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
     </ItemGroup>
 
 </Project>
