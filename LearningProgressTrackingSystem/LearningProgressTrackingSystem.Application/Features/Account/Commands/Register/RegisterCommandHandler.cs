@@ -1,5 +1,4 @@
 using System.Net;
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Commands;
 using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Domain.Contracts;
 using LearningProgressTrackingSystem.Domain.Entities;
@@ -7,7 +6,7 @@ using LearningProgressTrackingSystem.Domain.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
-namespace LearningProgressTrackingSystem.Application.DTO.Requests.Account.Handlers;
+namespace LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
 
 public sealed class RegisterCommandHandler(
     IAccountRepository accountRepository,

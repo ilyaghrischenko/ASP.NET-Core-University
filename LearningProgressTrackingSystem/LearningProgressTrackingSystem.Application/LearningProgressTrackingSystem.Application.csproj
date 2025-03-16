@@ -16,7 +16,7 @@
 
     <ItemGroup>
       <Folder Include="Contracts\Entities\" />
-      <Folder Include="DTO\Requests\Student\" />
+      <Folder Include="Features\Course\DTOs\" />
     </ItemGroup>
 
     <ItemGroup>

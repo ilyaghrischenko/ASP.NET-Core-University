@@ -1,6 +1,5 @@
 using System.Security.Claims;
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
 using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Application.Options;
 using LearningProgressTrackingSystem.Domain.Contracts;
@@ -10,7 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 
-namespace LearningProgressTrackingSystem.Application.DTO.Requests.Account.Handlers;
+namespace LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
 
 public sealed class LogInQueryHandler(
     IAccountRepository accountRepository,

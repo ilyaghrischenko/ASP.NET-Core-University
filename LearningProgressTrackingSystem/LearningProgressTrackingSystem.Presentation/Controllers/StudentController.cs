@@ -1,5 +1,5 @@
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
-using LearningProgressTrackingSystem.Application.DTO.Responses.Account;
+using LearningProgressTrackingSystem.Application.Features.Account.DTOs;
+using LearningProgressTrackingSystem.Application.Features.Account.Queries.GetAccountLogin;
 using LearningProgressTrackingSystem.Application.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -15,7 +15,7 @@ namespace LearningProgressTrackingSystem.Presentation.Controllers
         public async Task<IActionResult> Main(int accountId)
         {
             GetAccountLoginQuery query = new(accountId);
-            Result<AccountLoginResponse> response = await mediator.Send(query);
+            Result<AccountLoginDto> response = await mediator.Send(query);
 
             return response.Map<IActionResult>(
                 onSuccess: View,

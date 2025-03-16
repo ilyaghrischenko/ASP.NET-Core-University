@@ -1,4 +1,4 @@
-using LearningProgressTrackingSystem.Application.DTO.Responses.Info;
+using LearningProgressTrackingSystem.Application.Features.Info.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearningProgressTrackingSystem.Presentation.Controllers

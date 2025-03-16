@@ -1,6 +1,7 @@
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Commands;
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
+using LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
+using LearningProgressTrackingSystem.Application.Features.Account.Queries.GetAccountLogin;
+using LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
 using LearningProgressTrackingSystem.Application.Options;
 using LearningProgressTrackingSystem.Application.Services.Identity;
 using LearningProgressTrackingSystem.Data;

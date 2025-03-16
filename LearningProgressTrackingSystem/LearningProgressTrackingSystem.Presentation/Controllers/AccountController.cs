@@ -1,5 +1,5 @@
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Commands;
-using LearningProgressTrackingSystem.Application.DTO.Requests.Account.Queries;
+using LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
+using LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
 using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Domain.Enums;
