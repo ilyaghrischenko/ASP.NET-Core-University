@@ -12,6 +12,8 @@ public sealed class AccountRepository(LearningProgressTrackingSystemContext cont
     
     public async Task<AccountEntity?> GetByIdAsNoTrackingAsync(int id, CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+        
         var dbSet = _context.Accounts;
         
         return await dbSet
@@ -21,6 +23,8 @@ public sealed class AccountRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<IEnumerable<AccountEntity>?> GetAllAsNoTrackingAsync(CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Accounts;
         
         return await dbSet
@@ -30,6 +34,8 @@ public sealed class AccountRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<AccountEntity?> GetByLoginAsNoTrackingAsync(string login, CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Accounts;
         
         return await dbSet

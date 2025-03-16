@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearningProgressTrackingSystem.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52e32c44ddafa2e5e1f4f2c7bf0afcfb5610ce20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63af8903efdcf58ef6b8cb6772998384ae1533dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearningProgressTrackingSystem.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearningProgressTrackingSystem.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

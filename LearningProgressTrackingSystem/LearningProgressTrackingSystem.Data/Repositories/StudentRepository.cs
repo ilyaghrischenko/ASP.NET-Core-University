@@ -20,6 +20,8 @@ public sealed class StudentRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<Student?> GetByIdAsNoTrackingAsync(int id, CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
@@ -30,6 +32,8 @@ public sealed class StudentRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<IEnumerable<Student>?> GetAllAsNoTrackingAsync(CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
