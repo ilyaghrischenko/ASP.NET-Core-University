@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearningProgressTrackingSystem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb7d75ecfc0592d2f6b530df9c24a41c906609b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3fa258b0bd49bb0911c2ec0cc4ba638e1a727f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearningProgressTrackingSystem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearningProgressTrackingSystem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

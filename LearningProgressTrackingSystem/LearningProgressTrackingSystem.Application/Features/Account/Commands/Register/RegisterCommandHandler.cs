@@ -1,5 +1,5 @@
 using System.Net;
-using LearningProgressTrackingSystem.Application.Models;
+using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Domain.Contracts;
 using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Domain.Enums;

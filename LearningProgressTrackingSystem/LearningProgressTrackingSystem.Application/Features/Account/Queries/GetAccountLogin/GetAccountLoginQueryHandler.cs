@@ -1,6 +1,6 @@
 using System.Net;
+using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Application.Features.Account.DTOs;
-using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Domain.Contracts;
 using LearningProgressTrackingSystem.Domain.Entities;
 using MediatR;

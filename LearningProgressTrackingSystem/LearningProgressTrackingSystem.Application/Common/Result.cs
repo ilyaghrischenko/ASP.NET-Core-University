@@ -1,7 +1,6 @@
 using System.Net;
-using Microsoft.AspNetCore.Http;
 
-namespace LearningProgressTrackingSystem.Application.Models;
+namespace LearningProgressTrackingSystem.Application.Common;
 
 public sealed class Result<T>
 {

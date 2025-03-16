@@ -1,4 +1,4 @@
-using LearningProgressTrackingSystem.Application.Models;
+using LearningProgressTrackingSystem.Application.Common;
 using MediatR;
 
 namespace LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;

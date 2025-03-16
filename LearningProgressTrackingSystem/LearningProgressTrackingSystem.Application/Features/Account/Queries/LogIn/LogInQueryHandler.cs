@@ -1,6 +1,6 @@
 using System.Security.Claims;
+using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
-using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Application.Options;
 using LearningProgressTrackingSystem.Domain.Contracts;
 using LearningProgressTrackingSystem.Domain.Entities;

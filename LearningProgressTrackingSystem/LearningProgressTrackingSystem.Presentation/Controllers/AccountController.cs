@@ -1,6 +1,6 @@
+using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
 using LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
-using LearningProgressTrackingSystem.Application.Models;
 using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Domain.Enums;
 using MediatR;

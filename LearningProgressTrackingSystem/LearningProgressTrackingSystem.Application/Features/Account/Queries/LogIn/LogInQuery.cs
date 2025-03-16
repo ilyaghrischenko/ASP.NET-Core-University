@@ -1,4 +1,4 @@
-using LearningProgressTrackingSystem.Application.Models;
+using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Domain.Entities;
 using MediatR;
 
