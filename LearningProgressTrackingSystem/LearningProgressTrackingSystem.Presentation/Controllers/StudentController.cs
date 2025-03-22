@@ -1,8 +1,7 @@
 using LearningProgressTrackingSystem.Application.Common;
-using LearningProgressTrackingSystem.Application.Features.Account.DTOs;
-using LearningProgressTrackingSystem.Application.Features.Account.Queries.GetAccountLogin;
+using LearningProgressTrackingSystem.Application.Features.Common.DTOs;
+using LearningProgressTrackingSystem.Application.Features.Student.Queries.GetStudentMainPageData;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearningProgressTrackingSystem.Presentation.Controllers
@@ -14,15 +13,14 @@ namespace LearningProgressTrackingSystem.Presentation.Controllers
         [HttpGet]
         public async Task<IActionResult> Main(int accountId)
         {
-            GetAccountLoginQuery query = new(accountId);
-            Result<AccountLoginDto> response = await mediator.Send(query);
+            GetStudentMainPageDataQuery query = new(accountId);
+            Result<MainPageDto> result = await mediator.Send(query);
 
-            return response.Map<IActionResult>(
+            return result.Map<IActionResult>(
                 onSuccess: View,
-                onFailure: errorMessage => RedirectToAction(
-                    "Error", 
-                    "Info",
-                    new { message = errorMessage, statusCode = response.StatusCode }
+                onFailure: _ => RedirectToAction(
+                    "LogIn",
+                    "Account"
                 )
             );
         }

@@ -16,7 +16,7 @@ public sealed class GetAccountLoginQueryHandler(IAccountRepository accountReposi
 
         if (account is null)
         {
-            return Result<AccountLoginDto>.Failure($"Account with id: {request.AccountId} was not found", HttpStatusCode.NotFound);
+            return Result<AccountLoginDto>.Failure($"Account with id: {request.AccountId} was not found", HttpStatusCode.Unauthorized);
         }
 
         AccountLoginDto dto = new(account.Login);

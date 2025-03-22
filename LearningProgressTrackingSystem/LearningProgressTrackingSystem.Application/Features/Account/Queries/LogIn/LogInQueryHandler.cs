@@ -1,3 +1,4 @@
+using System.Net;
 using System.Security.Claims;
 using LearningProgressTrackingSystem.Application.Common;
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
@@ -27,7 +28,7 @@ public sealed class LogInQueryHandler(
         if (account is null)
         {
             return Result<AccountEntity>.Failure(
-                $"Account with login: {request.Login} not found");
+                $"Account with login: {request.Login} not found", HttpStatusCode.NotFound);
         }
 
         PasswordVerificationResult verificationResult

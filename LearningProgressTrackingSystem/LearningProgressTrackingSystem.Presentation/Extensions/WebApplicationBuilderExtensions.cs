@@ -2,6 +2,10 @@ using LearningProgressTrackingSystem.Application.Contracts.Identity;
 using LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
 using LearningProgressTrackingSystem.Application.Features.Account.Queries.GetAccountLogin;
 using LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
+using LearningProgressTrackingSystem.Application.Features.Student.Queries.GetAllStudentCourses;
+using LearningProgressTrackingSystem.Application.Features.Student.Queries.GetStudentMainPageData;
+using LearningProgressTrackingSystem.Application.Features.Teacher.Queries.GetAllTeacherCourses;
+using LearningProgressTrackingSystem.Application.Features.Teacher.Queries.GetTeacherMainPageData;
 using LearningProgressTrackingSystem.Application.Options;
 using LearningProgressTrackingSystem.Application.Services.Identity;
 using LearningProgressTrackingSystem.Data;
@@ -30,6 +34,9 @@ public static class WebApplicationBuilderExtensions
     public static IHostApplicationBuilder AddRepositories(this IHostApplicationBuilder builder)
     {
         builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+        builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+        builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+        builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 
         return builder;
     }
@@ -56,6 +63,10 @@ public static class WebApplicationBuilderExtensions
             configuration.RegisterServicesFromAssembly(typeof(RegisterCommand).Assembly);
             configuration.RegisterServicesFromAssembly(typeof(LogInQuery).Assembly);
             configuration.RegisterServicesFromAssembly(typeof(GetAccountLoginQuery).Assembly);
+            configuration.RegisterServicesFromAssembly(typeof(GetAllStudentCoursesQuery).Assembly);
+            configuration.RegisterServicesFromAssembly(typeof(GetAllTeacherCoursesQuery).Assembly);
+            configuration.RegisterServicesFromAssembly(typeof(GetStudentMainPageDataQuery).Assembly);
+            configuration.RegisterServicesFromAssembly(typeof(GetTeacherMainPageDataQuery).Assembly);
         });
 
         return builder;

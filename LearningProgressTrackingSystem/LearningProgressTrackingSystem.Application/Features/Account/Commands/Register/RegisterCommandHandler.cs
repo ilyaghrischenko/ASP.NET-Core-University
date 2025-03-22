@@ -32,7 +32,7 @@ public sealed class RegisterCommandHandler(
         {
             Login = request.Login,
             Password = hashedPassword,
-            Role = AccountRole.Student
+            Role = AccountRole.Teacher
         };
         
         await accountRepository.AddAsync(newAccount, cancellationToken);

@@ -1,9 +1,38 @@
-@model LearningProgressTrackingSystem.Application.Features.Account.DTOs.AccountLoginDto
+@model LearningProgressTrackingSystem.Application.Features.Common.DTOs.MainPageDto
 
 @{
     ViewData["Title"] = "Student - Main";
 }
 
 <div>
-    <p>@Model.Login</p>
+    <p>@Model.AccountLoginDto.Login</p>
+    
+    @if (Model.Courses.Count != 0)
+    {
+        <ol>
+            @foreach (var item in Model.Courses)
+            {
+                <button onclick=goToCoursePage()>
+                    <p>@item.Title</p>
+                    <p>@item.Description</p>
+                    <p>@item.TeacherName</p>
+                </button>
+            }
+        </ol>
+    }
+    else
+    {
+        <p>No Courses</p>
+    }
 </div>
+
+@section Scripts
+{
+    <script>
+        //TODO
+        const goToCoursePage = () => {
+            console.log("button CLICKED!");
+        };
+    
+    </script>
+}
