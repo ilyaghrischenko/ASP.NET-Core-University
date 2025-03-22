@@ -1,5 +1,7 @@
+using LearningProgressTrackingSystem.Data;
 using LearningProgressTrackingSystem.Presentation.Extensions;
 using LearningProgressTrackingSystem.Presentation.Middlewares;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,5 +43,21 @@ app.UseResponseCompression();
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseCors("AllowMvcClient");
+
+#region DatabaseInitializer
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<LearningProgressTrackingSystemContext>();
+        DatabaseInitializer.Initialize(context);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"An error occurred while initializing the database: {ex.Message}");
+    }
+}
+#endregion
 
 app.Run();
