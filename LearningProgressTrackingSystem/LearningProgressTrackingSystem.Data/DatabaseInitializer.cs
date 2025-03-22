@@ -1,19 +1,20 @@
 using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Domain.Enums;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace LearningProgressTrackingSystem.Data;
 
 public static class DatabaseInitializer
 {
-    public static void Initialize(LearningProgressTrackingSystemContext context)
+    public static void Initialize(LearningProgressTrackingSystemContext context, IPasswordHasher<AccountEntity> passwordHasher)
     {
         try
         {
             context.Database.Migrate();
             Console.WriteLine("Database initialization completed successfully.");
             
-            AddStartEntities(context);
+            AddStartEntities(context, passwordHasher);
             Console.WriteLine("Adding start entities completed successfully.");
         }
         catch (Exception ex)
@@ -23,19 +24,19 @@ public static class DatabaseInitializer
         }
     }
 
-    private static void AddStartEntities(LearningProgressTrackingSystemContext context)
+    private static void AddStartEntities(LearningProgressTrackingSystemContext context, IPasswordHasher<AccountEntity> passwordHasher)
     {
         if (!context.Accounts.Any())
         {
             context.Accounts.AddRange(new AccountEntity
             {
                 Login = "account1",
-                Password = "account1",
+                Password = passwordHasher.HashPassword(null!, "account1"),
                 Role = AccountRole.Student
             }, new AccountEntity
             {
                 Login = "account2",
-                Password = "account2",
+                Password = passwordHasher.HashPassword(null!, "account2"),
                 Role = AccountRole.Teacher
             });
 
@@ -74,7 +75,7 @@ public static class DatabaseInitializer
             Console.WriteLine("Teacher added successfully.");
         }
 
-        if (!context.Teachers.Any())
+        if (!context.Courses.Any())
         {
             var teacher = context.Teachers.First();
 

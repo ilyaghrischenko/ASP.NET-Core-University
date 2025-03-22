@@ -1,6 +1,8 @@
 using LearningProgressTrackingSystem.Data;
+using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Presentation.Extensions;
 using LearningProgressTrackingSystem.Presentation.Middlewares;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -51,7 +53,8 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var context = services.GetRequiredService<LearningProgressTrackingSystemContext>();
-        DatabaseInitializer.Initialize(context);
+        var passwordHasher = services.GetRequiredService<IPasswordHasher<AccountEntity>>();
+        DatabaseInitializer.Initialize(context, passwordHasher);
     }
     catch (Exception ex)
     {
