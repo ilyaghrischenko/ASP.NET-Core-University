@@ -319,3 +319,7 @@ D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgres
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\LearningProgressTrackingSystem.Application.dll
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\LearningProgressTrackingSystem.Application.pdb
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\FluentValidation.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.MvcApplicationPartsAssemblyInfo.cs

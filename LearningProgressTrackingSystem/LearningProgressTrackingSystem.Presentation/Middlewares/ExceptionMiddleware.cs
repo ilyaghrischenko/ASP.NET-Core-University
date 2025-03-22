@@ -1,4 +1,5 @@
-using System.Text.Json;
+using System.Net;
+using FluentValidation;
 
 namespace LearningProgressTrackingSystem.Presentation.Middlewares;
 
@@ -12,7 +13,7 @@ public sealed class ExceptionMiddleware(RequestDelegate next)
         }
         catch (Exception ex)
         {
-            await HandleExceptionAsync(
+            HandleException(
                 context,
                 ex.Message,
                 StatusCodes.Status500InternalServerError
@@ -20,7 +21,7 @@ public sealed class ExceptionMiddleware(RequestDelegate next)
         }
     }
     
-    private async Task HandleExceptionAsync(HttpContext context, string message, int statusCode)
+    private void HandleException(HttpContext context, string message, int statusCode)
     {
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = statusCode;

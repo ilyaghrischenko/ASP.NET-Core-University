@@ -15,6 +15,7 @@ builder
     .AddRepositories()
     .AddApplicationServices()
     .AddIntegrationServices()
+    .AddFluentValidation()
     .AddMediatR()
     .AddOptions()
     .AddJwtBearerAuthentication()

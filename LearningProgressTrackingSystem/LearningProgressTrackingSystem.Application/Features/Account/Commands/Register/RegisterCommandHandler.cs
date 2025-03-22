@@ -10,15 +10,10 @@ namespace LearningProgressTrackingSystem.Application.Features.Account.Commands.R
 
 public sealed class RegisterCommandHandler(
     IAccountRepository accountRepository,
-    IPasswordHasher<AccountEntity?> passwordHasher) : IRequestHandler<RegisterCommand, Result<Unit>>
+    IPasswordHasher<AccountEntity> passwordHasher) : IRequestHandler<RegisterCommand, Result<Unit>>
 {
     public async Task<Result<Unit>> Handle(RegisterCommand request, CancellationToken cancellationToken)
     {
-        if (request.Password != request.ConfirmPassword)
-        {
-            return Result<Unit>.Failure("Passwords do not match.");
-        }
-        
         AccountEntity? account = await accountRepository.GetByLoginAsNoTrackingAsync(request.Login, cancellationToken);
 
         if (account is not null)

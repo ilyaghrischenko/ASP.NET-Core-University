@@ -1,7 +1,10 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using LearningProgressTrackingSystem.Application.Contracts.Identity;
 using LearningProgressTrackingSystem.Application.Features.Account.Commands.Register;
 using LearningProgressTrackingSystem.Application.Features.Account.Queries.GetAccountLogin;
 using LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn;
+using LearningProgressTrackingSystem.Application.Features.Account.Validators;
 using LearningProgressTrackingSystem.Application.Features.Student.Queries.GetAllStudentCourses;
 using LearningProgressTrackingSystem.Application.Features.Student.Queries.GetStudentMainPageData;
 using LearningProgressTrackingSystem.Application.Features.Teacher.Queries.GetAllTeacherCourses;
@@ -68,6 +71,15 @@ public static class WebApplicationBuilderExtensions
             configuration.RegisterServicesFromAssembly(typeof(GetStudentMainPageDataQuery).Assembly);
             configuration.RegisterServicesFromAssembly(typeof(GetTeacherMainPageDataQuery).Assembly);
         });
+
+        return builder;
+    }
+
+    public static IHostApplicationBuilder AddFluentValidation(this IHostApplicationBuilder builder)
+    {
+        builder.Services.AddFluentValidationAutoValidation();
+        builder.Services.AddValidatorsFromAssemblyContaining<LogInQueryValidator>();
+        builder.Services.AddValidatorsFromAssemblyContaining<RegisterCommandValidator>();
 
         return builder;
     }
