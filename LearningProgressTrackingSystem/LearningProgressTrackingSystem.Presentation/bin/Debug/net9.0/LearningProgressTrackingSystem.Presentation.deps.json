@@ -15,6 +15,14 @@
         },
         "runtime": {
           "LearningProgressTrackingSystem.Presentation.dll": {}
+        },
+        "resources": {
+          "en/LearningProgressTrackingSystem.Presentation.resources.dll": {
+            "locale": "en"
+          },
+          "uk/LearningProgressTrackingSystem.Presentation.resources.dll": {
+            "locale": "uk"
+          }
         }
       },
       "FluentValidation/11.11.0": {

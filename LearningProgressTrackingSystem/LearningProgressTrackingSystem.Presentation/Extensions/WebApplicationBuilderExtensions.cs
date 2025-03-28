@@ -168,4 +168,11 @@ public static class WebApplicationBuilderExtensions
 
         return builder;
     }
+
+    public static IHostApplicationBuilder AddLocalization(this IHostApplicationBuilder builder)
+    {
+        builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+        return builder;
+    }
 }

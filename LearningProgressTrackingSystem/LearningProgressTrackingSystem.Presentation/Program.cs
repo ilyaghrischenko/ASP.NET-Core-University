@@ -7,8 +7,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services
+    .AddControllersWithViews()
+    .AddViewLocalization()
+    .AddDataAnnotationsLocalization();
 
 builder
     .AddDbContext()
@@ -19,9 +21,12 @@ builder
     .AddMediatR()
     .AddOptions()
     .AddJwtBearerAuthentication()
-    .AddResponseCompression();
+    .AddResponseCompression()
+    .AddLocalization();
 
 var app = builder.Build();
+
+app.UseLocalization();
 
 if (!app.Environment.IsDevelopment())
 {
@@ -47,21 +52,6 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseCors("AllowMvcClient");
 
-#region DatabaseInitializer
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    try
-    {
-        var context = services.GetRequiredService<LearningProgressTrackingSystemContext>();
-        var passwordHasher = services.GetRequiredService<IPasswordHasher<AccountEntity>>();
-        DatabaseInitializer.Initialize(context, passwordHasher);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"An error occurred while initializing the database: {ex.Message}");
-    }
-}
-#endregion
+app.InitializeDatabaseIfUninitialized();
 
 app.Run();

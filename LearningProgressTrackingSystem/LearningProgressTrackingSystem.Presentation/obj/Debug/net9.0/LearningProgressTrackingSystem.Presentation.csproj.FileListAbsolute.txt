@@ -323,3 +323,16 @@ D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgres
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\en\LearningProgressTrackingSystem.Presentation.resources.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.LogIn.en.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.csproj.GenerateResource.cache
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\en\LearningProgressTrackingSystem.Presentation.resources.cs
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\en\LearningProgressTrackingSystem.Presentation.resources.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\bin\Debug\net9.0\uk\LearningProgressTrackingSystem.Presentation.resources.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.LogIn.uk.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\uk\LearningProgressTrackingSystem.Presentation.resources.cs
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\uk\LearningProgressTrackingSystem.Presentation.resources.dll
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Shared._Layout.en.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Shared._Layout.uk.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.Register.en.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.Register.uk.resources

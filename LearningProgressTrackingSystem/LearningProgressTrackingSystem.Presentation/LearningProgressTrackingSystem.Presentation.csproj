@@ -13,6 +13,9 @@
 
     <ItemGroup>
       <Folder Include="Controllers\" />
+      <Folder Include="Resources\Views\Info\" />
+      <Folder Include="Resources\Views\Student\" />
+      <Folder Include="Resources\Views\Teacher\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -23,6 +26,66 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Views\Account\LogIn.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>LogIn.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Views\Account\LogIn.uk.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>LogIn.uk.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Views\Shared\_Layout.uk.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>_Layout.uk.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Views\Shared\_Layout.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>_Layout.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Views\Account\Register.uk.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Register.uk.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Views\Account\Register.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Register.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Views\Account\LogIn.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LogIn.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Views\Account\LogIn.uk.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LogIn.uk.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Views\Shared\_Layout.uk.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>_Layout.uk.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Views\Shared\_Layout.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>_Layout.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Views\Account\Register.uk.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Register.uk.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Views\Account\Register.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Register.en.resx</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>
