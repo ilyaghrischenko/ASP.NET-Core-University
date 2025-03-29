@@ -41,3 +41,9 @@ artifacts/
 
 # Log files
 *.log
+
+# Исключение сгенерированных файлов
+Properties/AssemblyInfo.cs
+**/obj/**/AssemblyReference.cache
+**/bin/
+**/obj/

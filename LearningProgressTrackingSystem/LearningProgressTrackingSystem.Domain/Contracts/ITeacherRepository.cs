@@ -4,7 +4,7 @@ using LearningProgressTrackingSystem.Domain.Entities;
 namespace LearningProgressTrackingSystem.Domain.Contracts;
 
 public interface ITeacherRepository
-    : IRepository<Teacher>, IReceivableRepository<Teacher>
+    : IRepository<Teacher>, IReceivableRepository<Teacher>, IReceivableByAccountRepository<Teacher>
 {
     
 }

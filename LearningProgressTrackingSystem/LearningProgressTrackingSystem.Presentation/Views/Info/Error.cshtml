@@ -1,0 +1,9 @@
+@model LearningProgressTrackingSystem.Application.Features.Info.DTOs.ErrorResponse
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100 text-center">
+    <p>@Model.StatusCode: @Model.Message</p>
+</div>

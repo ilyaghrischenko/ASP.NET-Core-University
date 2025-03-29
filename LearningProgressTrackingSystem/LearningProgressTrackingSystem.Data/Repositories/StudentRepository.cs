@@ -13,6 +13,7 @@ public sealed class StudentRepository(LearningProgressTrackingSystemContext cont
     protected override IQueryable<Student> ApplyIncludes(IQueryable<Student> dbSet)
     {
         return dbSet
+            .Include(student => student.Account)
             .Include(student => student.Courses)
             .Include(student => student.Grades)
             .Include(student => student.Assignments);
@@ -20,6 +21,8 @@ public sealed class StudentRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<Student?> GetByIdAsNoTrackingAsync(int id, CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
@@ -30,11 +33,26 @@ public sealed class StudentRepository(LearningProgressTrackingSystemContext cont
 
     public async Task<IEnumerable<Student>?> GetAllAsNoTrackingAsync(CancellationToken ct)
     {
+        ct.ThrowIfCancellationRequested();
+
         var dbSet = _context.Students;
         var query = ApplyIncludes(dbSet);
         
         return await query
             .AsNoTracking()
             .ToListAsync(ct);
+    }
+
+    public async Task<Student?> GetByAccountIdAsNoTrackingAsync(int accountId, CancellationToken cancellationToken)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        
+        var dbSet = _context.Students;
+        var query = ApplyIncludes(dbSet);
+        
+        return await query
+            .AsNoTracking()
+            .FirstOrDefaultAsync(student => student.Account != null && student.Account.Id == accountId,
+                cancellationToken);
     }
 }

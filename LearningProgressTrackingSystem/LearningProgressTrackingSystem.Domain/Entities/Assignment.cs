@@ -11,4 +11,6 @@ public sealed class Assignment : BaseEntity
     public required Course Course { get; set; }
     
     public ICollection<Grade> Grades { get; set; } = new List<Grade>();
+
+    public Assignment() { }
 }

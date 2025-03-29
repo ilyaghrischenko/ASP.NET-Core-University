@@ -3116,6 +3116,7 @@
     "net9.0": [
       "LearningProgressTrackingSystem.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.2",
+      "Microsoft.EntityFrameworkCore.Relational >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "Microsoft.Extensions.Configuration >= 9.0.2",
       "Microsoft.Extensions.Configuration.Json >= 9.0.2",
@@ -3176,6 +3177,10 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[9.0.2, )"
           },

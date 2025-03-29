@@ -37,7 +37,7 @@ namespace LearningProgressTrackingSystem.Data.Migrations
                     b.ToTable("CourseStudent");
                 });
 
-            modelBuilder.Entity("LearningProgressTrackingSystem.Domain.Entities.Account", b =>
+            modelBuilder.Entity("LearningProgressTrackingSystem.Domain.Entities.AccountEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,6 +52,9 @@ namespace LearningProgressTrackingSystem.Data.Migrations
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -275,7 +278,7 @@ namespace LearningProgressTrackingSystem.Data.Migrations
 
             modelBuilder.Entity("LearningProgressTrackingSystem.Domain.Entities.Student", b =>
                 {
-                    b.HasOne("LearningProgressTrackingSystem.Domain.Entities.Account", "Account")
+                    b.HasOne("LearningProgressTrackingSystem.Domain.Entities.AccountEntity", "Account")
                         .WithMany()
                         .HasForeignKey("AccountId");
 
@@ -284,7 +287,7 @@ namespace LearningProgressTrackingSystem.Data.Migrations
 
             modelBuilder.Entity("LearningProgressTrackingSystem.Domain.Entities.Teacher", b =>
                 {
-                    b.HasOne("LearningProgressTrackingSystem.Domain.Entities.Account", "Account")
+                    b.HasOne("LearningProgressTrackingSystem.Domain.Entities.AccountEntity", "Account")
                         .WithMany()
                         .HasForeignKey("AccountId");
 

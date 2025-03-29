@@ -1,21 +1,36 @@
+using LearningProgressTrackingSystem.Data;
+using LearningProgressTrackingSystem.Domain.Entities;
 using LearningProgressTrackingSystem.Presentation.Extensions;
+using LearningProgressTrackingSystem.Presentation.Middlewares;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services
+    .AddControllersWithViews()
+    .AddViewLocalization()
+    .AddDataAnnotationsLocalization();
 
 builder
-    .AddPooledDbContextFactory()
+    .AddDbContext()
     .AddRepositories()
     .AddApplicationServices()
-    .AddIntegrationServices();
+    .AddIntegrationServices()
+    .AddFluentValidation()
+    .AddMediatR()
+    .AddOptions()
+    .AddJwtBearerAuthentication()
+    .AddResponseCompression()
+    .AddLocalization();
 
 var app = builder.Build();
 
+app.UseLocalization();
+
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/Info/Error");
     app.UseHsts();
 }
 
@@ -28,8 +43,15 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
+        pattern: "{controller=Account}/{action=LogIn}/{id?}")
     .WithStaticAssets();
 
+app.UseResponseCompression();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseCors("AllowMvcClient");
+
+app.InitializeDatabaseIfUninitialized();
 
 app.Run();

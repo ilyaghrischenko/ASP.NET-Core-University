@@ -9,8 +9,8 @@ public sealed class LearningProgressTrackingSystemContext : DbContext
 
     public LearningProgressTrackingSystemContext(DbContextOptions<LearningProgressTrackingSystemContext> options)
         : base(options) { }
-    
-    public DbSet<Account> Accounts { get; set; }
+
+    public DbSet<AccountEntity> Accounts { get; set; }
     public DbSet<Student> Students { get; set; }
     public DbSet<Course> Courses { get; set; }
     public DbSet<Teacher> Teachers { get; set; }
