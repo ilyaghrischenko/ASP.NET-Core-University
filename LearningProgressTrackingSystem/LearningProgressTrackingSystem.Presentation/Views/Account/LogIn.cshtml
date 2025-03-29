@@ -17,13 +17,13 @@
         
         <div class="mb-3 d-flex flex-row">
             <label>@Localizer["Login"]</label>
-            @Html.TextBoxFor(model => model.Login, new { @class = "form-control" })
+            @Html.TextBoxFor(model => model.Login, new { @class = "form-control", required="required" })
             @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
         </div>
 
         <div class="mb-3 d-flex flex-row">
             <label>@Localizer["Password"]</label>
-            @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+            @Html.PasswordFor(model => model.Password, new { @class = "form-control", required = "required" })
             @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
         </div>
 
