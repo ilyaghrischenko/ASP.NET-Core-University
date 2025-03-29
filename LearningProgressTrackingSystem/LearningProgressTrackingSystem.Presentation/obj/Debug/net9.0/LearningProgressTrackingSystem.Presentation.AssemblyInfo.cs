@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearningProgressTrackingSystem.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c62055e6ff252bc24275434531292759d25e4ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dfa5bdf7107c51bf16f4df74bfb8c2de485d15f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearningProgressTrackingSystem.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearningProgressTrackingSystem.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
