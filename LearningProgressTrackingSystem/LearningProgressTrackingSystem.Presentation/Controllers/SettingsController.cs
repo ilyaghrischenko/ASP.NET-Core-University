@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 
 namespace LearningProgressTrackingSystem.Presentation.Controllers;
 
-public class HomeController(IOptionsMonitor<CookieSettings> cookiesOptions) : Controller
+public class SettingsController(IOptionsMonitor<CookieSettings> cookiesOptions) : Controller
 {
     private readonly CookieSettings _cookieSettings = cookiesOptions.CurrentValue;
     

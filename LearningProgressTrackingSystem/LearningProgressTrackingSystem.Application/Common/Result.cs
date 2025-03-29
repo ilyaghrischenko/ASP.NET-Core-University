@@ -2,14 +2,14 @@ using System.Net;
 
 namespace LearningProgressTrackingSystem.Application.Common;
 
-public sealed class Result<T>
+public sealed class Result<TValue>
 {
-    public T? Value { get; }
+    public TValue? Value { get; }
     public string? ErrorMessage { get; }
     public bool IsSuccess => ErrorMessage == null;
     public HttpStatusCode StatusCode { get; }
 
-    private Result(T value, HttpStatusCode statusCode)
+    private Result(TValue value, HttpStatusCode statusCode)
     {
         Value = value;
         ErrorMessage = null;
@@ -23,12 +23,12 @@ public sealed class Result<T>
         StatusCode = statusCode;
     }
 
-    public static Result<T> Success(T value, HttpStatusCode statusCode = HttpStatusCode.OK)
-        => new Result<T>(value, statusCode);
-    public static Result<T> Failure(string errorMessage, HttpStatusCode statusCode = HttpStatusCode.BadRequest)
-        => new Result<T>(errorMessage, statusCode);
+    public static Result<TValue> Success(TValue value, HttpStatusCode statusCode = HttpStatusCode.OK)
+        => new(value, statusCode);
+    public static Result<TValue> Failure(string errorMessage, HttpStatusCode statusCode = HttpStatusCode.BadRequest)
+        => new(errorMessage, statusCode);
 
-    public TResult Map<TResult>(Func<T, TResult> onSuccess, Func<string, TResult> onFailure)
+    public TResult Map<TResult>(Func<TValue, TResult> onSuccess, Func<string, TResult> onFailure)
     {
         return IsSuccess ? onSuccess(Value!) : onFailure(ErrorMessage!);
     }
