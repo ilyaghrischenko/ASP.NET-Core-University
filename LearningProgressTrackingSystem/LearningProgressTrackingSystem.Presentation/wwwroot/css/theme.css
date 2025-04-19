@@ -1,0 +1,37 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --navbar-bg: white;
+    --navbar-text: black;
+    --footer-bg: white;
+    --button-bg: black;
+}
+
+.dark-theme {
+    --background-color: #2e2e2e;
+    --text-color: white;
+    --navbar-bg: #1f1f1f;
+    --navbar-text: white;
+    --footer-bg: #1f1f1f;
+    --button-bg: white;
+}
+
+body, main, footer, header, button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    color: var(--navbar-text) !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: var(--navbar-text) !important;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--text-color);
+}

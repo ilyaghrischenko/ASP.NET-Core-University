@@ -11,28 +11,28 @@
 <div class="d-flex justify-content-center align-items-center vh-100 text-center">
     <form asp-action="Register"
           method="post"
-          class="d-flex justify-content-center align-items-center flex-column"
+          class="d-flex justify-content-center align-items-center flex-column w-75"
     >
         @Html.ValidationSummary()
         
         <div class="mb-3 d-flex flex-row">
-            <label>@Localizer["Login"]</label>
+            <label>@Localizer["Login"]:</label>
             @Html.TextBoxFor(model => model.Login, new { @class = "form-control", required = "required" })
-            @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
         </div>
+        @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
 
         <div class="mb-3 d-flex flex-row">
-            <label>@Localizer["Password"]</label>
+            <label>@Localizer["Password"]:</label>
             @Html.PasswordFor(model => model.Password, new { @class = "form-control", required = "required" })
-            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
         </div>
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
 
         <div class="mb-3 d-flex flex-row">
-            <label>@Localizer["ConfirmPassword"]</label>
+            <label>@Localizer["ConfirmPassword"]:</label>
             @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control", required = "required" })
-            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
         </div>
-
+        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+        
         <div>
             <button type="submit" class="btn btn-primary">@Localizer["Sign up"]</button>
         </div>

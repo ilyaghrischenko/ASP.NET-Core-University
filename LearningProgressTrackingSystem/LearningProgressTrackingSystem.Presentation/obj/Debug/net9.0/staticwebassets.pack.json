@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
       "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

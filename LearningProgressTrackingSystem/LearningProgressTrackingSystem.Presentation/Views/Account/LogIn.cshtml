@@ -1,8 +1,9 @@
+@using Microsoft.AspNetCore.Mvc.Localization
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 
 @model LearningProgressTrackingSystem.Application.Features.Account.Queries.LogIn.LogInQuery
 
-@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer Localizer
+@inject IViewLocalizer Localizer
 
 @{
     ViewData["Title"] = Localizer["PageTitle"];
@@ -11,24 +12,24 @@
 <div class="d-flex justify-content-center align-items-center vh-100 text-center">
     <form asp-action="LogIn"
           method="post"
-          class="d-flex justify-content-center align-items-center flex-column"
+          class="d-flex justify-content-center align-items-center flex-column w-75"
     >
         @Html.ValidationSummary()
         
         <div class="mb-3 d-flex flex-row">
-            <label>@Localizer["Login"]</label>
+            <label>@Localizer["Login"]:</label>
             @Html.TextBoxFor(model => model.Login, new { @class = "form-control", required="required" })
-            @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
         </div>
+        @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
 
         <div class="mb-3 d-flex flex-row">
-            <label>@Localizer["Password"]</label>
+            <label>@Localizer["Password"]:</label>
             @Html.PasswordFor(model => model.Password, new { @class = "form-control", required = "required" })
-            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
         </div>
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
 
         <div>
-            <button type="submit" class="btn btn-primary">@Localizer["Log in"]</button>
+            <button type="submit" class="btn-primary btn">@Localizer["Log in"]</button>
         </div>
     </form>
 </div>

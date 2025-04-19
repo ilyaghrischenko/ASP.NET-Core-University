@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A2oBduug9LVmpCf61szqMM5cWLvja32tMRm99NTRPLY=",
+  "Hash": "8WMIYAp+D6yQOKOupu+KSEksM2Llujx5neHrfbeXgBM=",
   "Source": "LearningProgressTrackingSystem.Presentation",
   "BasePath": "_content/LearningProgressTrackingSystem.Presentation",
   "Mode": "Default",
@@ -1298,6 +1298,27 @@
       "OriginalItemSpec": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+      "Identity": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\xs80oic1lz-e83r8z3305.gz",
+      "SourceId": "LearningProgressTrackingSystem.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LearningProgressTrackingSystem.Presentation",
+      "RelativePath": "css/theme#[.{fingerprint=e83r8z3305}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0et5awbeee",
+      "Integrity": "CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css"
+    },
+    {
       "Identity": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\ysahmtewov-pj5nd1wqec.gz",
       "SourceId": "LearningProgressTrackingSystem.Presentation",
       "SourceType": "Discovered",
@@ -1422,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
+      "SourceId": "LearningProgressTrackingSystem.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\",
+      "BasePath": "_content/LearningProgressTrackingSystem.Presentation",
+      "RelativePath": "css/theme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e83r8z3305",
+      "Integrity": "4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\theme.css"
     },
     {
       "Identity": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\favicon.ico",
@@ -3022,6 +3064,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.css",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\xs80oic1lz-e83r8z3305.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004098360656"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.css",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.css.gz",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\xs80oic1lz-e83r8z3305.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.e83r8z3305.css",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\xs80oic1lz-e83r8z3305.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004098360656"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e83r8z3305"
+        },
+        {
+          "Name": "label",
+          "Value": "css/theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.e83r8z3305.css",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e83r8z3305"
+        },
+        {
+          "Name": "label",
+          "Value": "css/theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4lKfdF5Yi3nGDkThBVjpASuA/ZCWHiaDgjPYY39A28w="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.e83r8z3305.css.gz",
+      "AssetFile": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\compressed\\xs80oic1lz-e83r8z3305.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 10:42:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e83r8z3305"
+        },
+        {
+          "Name": "label",
+          "Value": "css/theme.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CB7MnYhROJV/HWnI3FbEnrczAvKz82IV5v9ocmT2DeY="
         }
       ]
     },

@@ -12,6 +12,7 @@ public class SettingsController(IOptionsMonitor<CookieSettings> cookiesOptions) 
     [HttpGet]
     public IActionResult ChangeLanguage(string culture)
     {
+        //TODO: через медиатор
         var cultureInfo = string.IsNullOrEmpty(culture) ? "uk" : culture;
 
         var httpOnlyCookieOptions = new CookieOptions

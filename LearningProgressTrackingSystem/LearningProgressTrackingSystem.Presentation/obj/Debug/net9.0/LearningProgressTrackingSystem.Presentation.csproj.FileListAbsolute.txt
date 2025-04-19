@@ -336,3 +336,4 @@ D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgres
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Shared._Layout.uk.resources
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.Register.en.resources
 D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\LearningProgressTrackingSystem.Presentation.Resources.Views.Account.Register.uk.resources
+D:\GitHub\ASP.NET-Core-University\LearningProgressTrackingSystem\LearningProgressTrackingSystem.Presentation\obj\Debug\net9.0\compressed\xs80oic1lz-e83r8z3305.gz
