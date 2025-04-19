@@ -2065,7 +2065,7 @@
         },
         "runtime": {
           "LearningProgressTrackingSystem.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2073,6 +2073,7 @@
       "LearningProgressTrackingSystem.Data/1.0.0": {
         "dependencies": {
           "LearningProgressTrackingSystem.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.2",
           "Microsoft.Extensions.Configuration": "9.0.2",
@@ -2081,7 +2082,7 @@
         },
         "runtime": {
           "LearningProgressTrackingSystem.Data.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2089,7 +2090,7 @@
       "LearningProgressTrackingSystem.Domain/1.0.0": {
         "runtime": {
           "LearningProgressTrackingSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

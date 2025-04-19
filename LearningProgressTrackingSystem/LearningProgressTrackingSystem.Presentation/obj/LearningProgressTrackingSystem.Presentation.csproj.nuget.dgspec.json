@@ -1,38 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\LearningProgressTrackingSystem.Presentation.csproj": {}
+    "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/LearningProgressTrackingSystem.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\LearningProgressTrackingSystem.Application.csproj": {
+    "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/LearningProgressTrackingSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\LearningProgressTrackingSystem.Application.csproj",
+        "projectUniqueName": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/LearningProgressTrackingSystem.Application.csproj",
         "projectName": "LearningProgressTrackingSystem.Application",
-        "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\LearningProgressTrackingSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\obj\\",
+        "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/LearningProgressTrackingSystem.Application.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj": {
-                "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj"
+              "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj": {
+                "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj"
               }
             }
           }
@@ -47,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -98,39 +93,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\LearningProgressTrackingSystem.Data.csproj": {
+    "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/LearningProgressTrackingSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\LearningProgressTrackingSystem.Data.csproj",
+        "projectUniqueName": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/LearningProgressTrackingSystem.Data.csproj",
         "projectName": "LearningProgressTrackingSystem.Data",
-        "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\LearningProgressTrackingSystem.Data.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\obj\\",
+        "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/LearningProgressTrackingSystem.Data.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj": {
-                "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj"
+              "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj": {
+                "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj"
               }
             }
           }
@@ -145,12 +135,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -194,31 +188,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj": {
+    "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj",
+        "projectUniqueName": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj",
         "projectName": "LearningProgressTrackingSystem.Domain",
-        "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\LearningProgressTrackingSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Domain\\obj\\",
+        "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/LearningProgressTrackingSystem.Domain.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -237,7 +226,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -258,42 +247,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\LearningProgressTrackingSystem.Presentation.csproj": {
+    "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/LearningProgressTrackingSystem.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\LearningProgressTrackingSystem.Presentation.csproj",
+        "projectUniqueName": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/LearningProgressTrackingSystem.Presentation.csproj",
         "projectName": "LearningProgressTrackingSystem.Presentation",
-        "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\LearningProgressTrackingSystem.Presentation.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\",
+        "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/LearningProgressTrackingSystem.Presentation.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\LearningProgressTrackingSystem.Application.csproj": {
-                "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Application\\LearningProgressTrackingSystem.Application.csproj"
+              "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/LearningProgressTrackingSystem.Application.csproj": {
+                "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Application/LearningProgressTrackingSystem.Application.csproj"
               },
-              "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\LearningProgressTrackingSystem.Data.csproj": {
-                "projectPath": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Data\\LearningProgressTrackingSystem.Data.csproj"
+              "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/LearningProgressTrackingSystem.Data.csproj": {
+                "projectPath": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Data/LearningProgressTrackingSystem.Data.csproj"
               }
             }
           }
@@ -308,7 +292,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -342,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

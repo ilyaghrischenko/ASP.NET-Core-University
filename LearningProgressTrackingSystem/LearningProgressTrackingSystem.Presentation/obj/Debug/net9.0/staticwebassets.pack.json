@@ -1,283 +1,283 @@
 {
   "Files": [
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningProgressTrackingSystem.Presentation.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LearningProgressTrackingSystem.Presentation.ssh7qeup6h.bundle.scp.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/obj/Debug/net9.0/scopedcss/projectbundle/LearningProgressTrackingSystem.Presentation.bundle.scp.css",
+      "PackagePath": "staticwebassets/LearningProgressTrackingSystem.Presentation.rqvylozt54.bundle.scp.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\css\\theme.css",
-      "PackagePath": "staticwebassets\\css\\theme.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/css/theme.css",
+      "PackagePath": "staticwebassets/css/theme.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Id": "D:\\GitHub\\ASP.NET-Core-University\\LearningProgressTrackingSystem\\LearningProgressTrackingSystem.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+      "Id": "/Users/admin/Documents/GitHub/ASP.NET-Core-University/LearningProgressTrackingSystem/LearningProgressTrackingSystem.Presentation/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LearningProgressTrackingSystem.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LearningProgressTrackingSystem.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LearningProgressTrackingSystem.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LearningProgressTrackingSystem.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.LearningProgressTrackingSystem.Presentation.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.LearningProgressTrackingSystem.Presentation.props",
       "PackagePath": "build\\LearningProgressTrackingSystem.Presentation.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.LearningProgressTrackingSystem.Presentation.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.LearningProgressTrackingSystem.Presentation.props",
       "PackagePath": "buildMultiTargeting\\LearningProgressTrackingSystem.Presentation.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.LearningProgressTrackingSystem.Presentation.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.LearningProgressTrackingSystem.Presentation.props",
       "PackagePath": "buildTransitive\\LearningProgressTrackingSystem.Presentation.props"
     }
   ],

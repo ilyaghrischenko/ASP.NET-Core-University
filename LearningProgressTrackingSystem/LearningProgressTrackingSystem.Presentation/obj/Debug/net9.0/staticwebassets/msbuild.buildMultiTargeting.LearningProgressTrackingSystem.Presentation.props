@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\LearningProgressTrackingSystem.Presentation.props" />
+  <Import Project="../build/LearningProgressTrackingSystem.Presentation.props" />
 </Project>
